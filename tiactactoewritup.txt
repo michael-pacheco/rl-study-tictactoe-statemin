@@ -1,0 +1,216 @@
+Calculate diff in means for time taken.
+Graph difference in: times, winrates, total wins, total losses, size of q table,
+
+Time to completed 1000000 iterations: 846.8501400947571
+Total wins: [951021, 34161]
+Win rate excluding draws: 0.9653251886453468
+Win rate including draws: 0.951021
+Size of Q Table: 635
+Values for first state: {'20': 9.999999999999911, '21': 9.999999999999911, '11': 9.999999999999911}
+Draws: 14818
+Time to completed 1000000 iterations: 930.3375883102417
+Total wins: [863556, 69357]
+Win rate excluding draws: 0.9256554469709394
+Win rate including draws: 0.863556
+Size of Q Table: 5385
+Values for first state: {'20': 9.999999999999911, '00': 9.999999999999911, '21': 9.999999999999911, '10': 9.999999999999911, '12': 9.999999999999911, '11': 9.999999999999911, '01': 9.999999999999911, '02': 9.999999999999911, '22': 9.999999999999911}
+Draws: 67087
+_______________________________
+Time to completed 1000000 iterations: 954.7137115001678
+Total wins: [949248, 38485]
+Win rate excluding draws: 0.9610370413866905
+Win rate including draws: 0.949248
+Size of Q Table: 641
+Values for first state: {'20': 9.999999999999911, '21': 9.999999999999911, '11': 9.999999999999911}
+Draws: 12267
+Time to completed 1000000 iterations: 994.2011337280273
+Total wins: [871569, 82682]
+Win rate excluding draws: 0.9133540336871536
+Win rate including draws: 0.871569
+Size of Q Table: 5348
+Values for first state: {'11': 9.999999999999911, '02': 9.999999999999911, '22': 9.999999999999911, '21': 9.999999999999911, '12': 9.999999999999911, '01': 9.999999999999911, '00': 9.999999999999911, '20': 9.999999999999911, '10': 9.999999999999911}
+Draws: 45749
+_______________________________
+Time to completed 1000000 iterations: 947.4056642055511
+Total wins: [913953, 22625]
+Win rate excluding draws: 0.9758429089728778
+Win rate including draws: 0.913953
+Size of Q Table: 643
+Values for first state: {'20': 9.999999999999911, '11': 9.999999999999911, '21': 9.999999999999911}
+Draws: 63422
+Time to completed 1000000 iterations: 1257.410796403885
+Total wins: [685313, 168092]
+Win rate excluding draws: 0.8030337295891166
+Win rate including draws: 0.685313
+Size of Q Table: 5375
+Values for first state: {'10': 9.999999999999911, '02': 9.999999999999911, '01': 9.999999999999911, '21': 9.999999999999911, '00': 9.999999999999911, '20': 9.999999999999911, '12': 9.999999999999911, '11': 9.999999999999911, '22': 9.999999999999911}
+Draws: 146595
+_______________________________
+Time to completed 1000000 iterations: 946.8071126937866
+Total wins: [913029, 18496]
+Win rate excluding draws: 0.9801443868924613
+Win rate including draws: 0.913029
+Size of Q Table: 643
+Values for first state: {'11': 9.999999999999911, '21': 9.999999999999911, '20': 9.999999999999911}
+Draws: 68475
+Time to completed 1000000 iterations: 1009.4704568386078
+Total wins: [773051, 187949]
+Win rate excluding draws: 0.804423517169615
+Win rate including draws: 0.773051
+Size of Q Table: 5375
+Values for first state: {'12': 9.999999999999911, '22': 9.999999999999911, '10': 9.999999999999911, '11': 9.999999999999911, '02': 9.999999999999911, '20': 9.999999999999911, '21': 9.999999999999911, '00': 9.999999999999911, '01': 9.999999999999911}
+Draws: 39000
+_______________________________
+Time to completed 1000000 iterations: 851.4721705913544
+Total wins: [973549, 20248]
+Win rate excluding draws: 0.9796256177066343
+Win rate including draws: 0.973549
+Size of Q Table: 645
+Values for first state: {'11': 9.999999999999911, '21': 9.999999999999911, '20': 9.999999999999911}
+Draws: 6203
+Time to completed 1000000 iterations: 1024.5929827690125
+Total wins: [888128, 75026]
+Win rate excluding draws: 0.9221038380155199
+Win rate including draws: 0.888128
+Size of Q Table: 5380
+Values for first state: {'00': 9.999999999999911, '10': 9.999999999999911, '01': 9.999999999999911, '22': 9.999999999999911, '21': 9.999999999999911, '20': 9.999999999999911, '02': 9.999999999999911, '12': 9.999999999999911, '11': 9.999999999999911}
+Draws: 36846
+_______________________________
+Time to complete 1000000 iterations: 976.2376577854156
+Total wins: [966188, 22536]
+Win rate excluding draws: 0.977206985973841
+Win rate including draws: 0.966188
+Size of Q Table: 639
+Values for first state: {'20': 9.999999999999911, '11': 9.999999999999911, '21': 9.999999999999911}
+Draws: 11276
+Time to complete 1000000 iterations: 1021.0345921516418
+Total wins: [916202, 61608]
+Win rate excluding draws: 0.9369938945193852
+Win rate including draws: 0.916202
+Size of Q Table: 5374
+Values for first state: {'20': 9.999999999999911, '11': 9.999999999999911, '12': 9.999999999999911, '10': 9.999999999999911, '02': 9.999999999999911, '21': 9.999999999999911, '01': 9.999999999999911, '22': 9.999999999999911, '00': 9.999999999999911}
+Draws: 22190
+_______________________________
+
+(venv) C:\Users\Michael\Desktop\tictactoe>python tictactoe.py
+Time to complete 1000000 iterations: 858.9624087810516
+Total wins: [965926, 28807]
+Win rate excluding draws: 0.9710404701563133
+Win rate including draws: 0.965926
+Size of Q Table: 643
+Values for first state: {'20': 9.999999999999911, '21': 9.999999999999911, '11': 9.999999999999911}
+Draws: 5267
+Time to complete 1000000 iterations: 1064.2382769584656
+Total wins: [762708, 167296]
+Win rate excluding draws: 0.8201126016662293
+Win rate including draws: 0.762708
+Size of Q Table: 5377
+Values for first state: {'02': 9.999999999999911, '00': 9.999999999999911, '01': 9.999999999999911, '22': 9.999999999999911, '12': 9.999999999999911, '21': 9.999999999999911, '20': 9.999999999999911, '10': 9.999999999999911, '11': 9.999999999999911}
+Draws: 69996
+_______________________________
+Time to complete 1000000 iterations: 722.4607000350952
+Total wins: [942918, 54122]
+Win rate excluding draws: 0.9457173232768996
+Win rate including draws: 0.942918
+Size of Q Table: 644
+Values for first state: {'21': 9.999999999999911, '20': 9.999999999999911, '11': 9.999999999999911}
+Draws: 2960
+Time to complete 1000000 iterations: 867.5526609420776
+Total wins: [891775, 95564]
+Win rate excluding draws: 0.9032105487578228
+Win rate including draws: 0.891775
+Size of Q Table: 5345
+Values for first state: {'21': 9.999999999999911, '11': 9.999999999999911, '10': 9.999999999999911, '01': 9.999999999999911, '02': 9.999999999999911, '22': 9.999999999999911, '00': 9.999999999999911, '12': 9.999999999999911, '20': 9.999999999999911}
+Draws: 12661
+_______________________________
+Time to complete 1000000 iterations: 1077.9758887290955
+Total wins: [761621, 212996]
+Win rate excluding draws: 0.7814567158175981
+Win rate including draws: 0.761621
+Size of Q Table: 638
+Values for first state: {'20': 9.999999999999911, '11': 9.999999999999911, '21': 9.999999999999911}
+Draws: 25383
+Time to complete 1000000 iterations: 1129.6135747432709
+Total wins: [721615, 157014]
+Win rate excluding draws: 0.8212965882073093
+Win rate including draws: 0.721615
+Size of Q Table: 5371
+Values for first state: {'20': 9.999999999999911, '00': 9.999999999999911, '22': 9.999999999999911, '21': 9.999999999999911, '10': 9.999999999999911, '12': 9.999999999999911, '01': 9.999999999999911, '11': 9.999999999999911, '02': 9.999999999999911}
+Draws: 121371
+_______________________________
+Time to complete 1000000 iterations: 728.7907791137695
+Total wins: [914550, 44636]
+Win rate excluding draws: 0.9534647086175153
+Win rate including draws: 0.91455
+Size of Q Table: 639
+Values for first state: {'21': 9.999999999999911, '20': 9.999999999999911, '11': 9.999999999999911}
+Draws: 40814
+Time to complete 1000000 iterations: 903.6683473587036
+Total wins: [868241, 79006]
+Win rate excluding draws: 0.9165940879200462
+Win rate including draws: 0.868241
+Size of Q Table: 5402
+Values for first state: {'10': 9.999999999999911, '00': 9.999999999999911, '01': 9.999999999999911, '11': 9.999999999999911, '20': 9.999999999999911, '12': 9.999999999999911, '02': 9.999999999999911, '22': 9.999999999999911, '21': 9.999999999999911}
+Draws: 52753
+_______________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Time to complete 1000000 iterations: 894.2961285114288
+Total wins: [975282, 10008]
+Win rate excluding draws: 0.9898425844167706
+Win rate including draws: 0.975282
+Size of Q Table: 652
+Values for first state: {'11': 9.999999999999911, '21': 9.999999999999911, '20': 9.999999999999911}
+Draws: 14710
+Time to complete 1000000 iterations: 887.3882932662964
+Total wins: [857039, 92167]
+Win rate excluding draws: 0.9029009509000154
+Win rate including draws: 0.857039
+Size of Q Table: 5368
+Values for first state: {'02': 9.999999999999911, '20': 9.999999999999911, '22': 9.999999999999911, '01': 9.999999999999911, '21': 9.999999999999911, '12': 9.999999999999911, '10': 9.999999999999911, '11': 9.999999999999911, '00': 9.999999999999911}
+Draws: 50794
+________________________
+
+https://www.medcalc.org/calc/comparison_of_means.php
+https://www.calculator.net/standard-deviation-calculator.html?numberinputs=844.755951166153%2C&x=85&y=10
+http://sphweb.bumc.bu.edu/otlt/MPH-Modules/QuantCore/PH717_ComparingMeans/PH717_ComparingMeans3.html
+
+
+
+better implementation:
+Time to complete 1000000 iterations: 799.19
+Total wins: [825445, 91886]
+Win rate excluding draws: 89.98
+Win rate including draws: 82.54
+Size of Q Table: 3877
+Values for first state: {'20': 9.999999999999911, '21': 9.999999999999911, '11': 9.999999999999911}
+{'11': 0}
+{'21': 0, '20': 0}
+{'02': 0, '21': 0}
+Draws: 82669
+Draws: 8.27
+Time to complete 1000000 iterations: 829.39
+Total wins: [767599, 136034]
+Win rate excluding draws: 84.95
+Win rate including draws: 76.76
+Size of Q Table: 5475
+Values for first state: {'01': 9.999999999999911, '10': 9.999999999999911, '00': 9.999999999999911, '20': 9.999999999999911, '12': 9.999999999999911, '21': 9.999999999999911, '02': 9.999999999999911, '11': 9.999999999999911, '22': 9.999999999999911}
+{'12': 0, '11': 0}
+{'20': 0}
+{'01': 0, '21': 0}
+Draws: 96367
+Draws: 9.64
+________________________
