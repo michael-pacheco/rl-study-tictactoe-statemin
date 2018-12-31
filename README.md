@@ -1,7 +1,7 @@
 <h2>
 	A reinforcement learning agent that learns to play tic tac toe.
-	<br>
-	<br>
+</h1>
+<p>
 	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. The actions under consideration require the board to possess one of the following two properties:
 	<br>
 	<ol>
@@ -32,7 +32,7 @@
 	<br>
 	The following graph is a result of the comparison of the two agents during 1,000,000 games played (Agent 1 using the minimized action space).
 	<img src="Avg Reward Over Time.png">
-</h2>
+</p>
 
 <h2>Requirements: (Python 3x)</h2>
 <ul>
