@@ -177,10 +177,10 @@ class Game:
 			return 1
 		return 0
 					
-	def play_agents(self, flip_or_not):
+	def play_agents(self, flip_or_not, iterations = None):
 		agent_1 = Agent()
 		agent_2 = Agent()
-		iterations = 1000000
+		#iterations = 1000000
 
 		start = time.time()
 		for i in range(iterations):
@@ -263,10 +263,10 @@ class Game:
 	'''
 		Currently unfinished, need to modify the way the dictionary is updated when agent 2 discovers new states - key errors.
 	'''
-	def play_rl_agents(self, flip_or_not):
+	def play_rl_agents(self, flip_or_not, iterations = None):
 		agent_1 = Agent()
 		agent_2 = Agent()
-		iterations = 1000000
+		iterations = 1000000 if iterations is None else iterations
 
 		start = time.time()
 		for i in range(iterations):
@@ -488,7 +488,8 @@ class Agent():
 		data =[line]
 		plotly.offline.plot(data, filename='Average Reward Over Time.png')
 		
-	
+'''
+#used for avg rwd over time graphing
 class Graph():
 
 	y1 = []
@@ -521,18 +522,21 @@ class Graph():
 			}
 		}
 		plotly.offline.plot(data, layout, filename='Average Reward Over Time')
+'''
 	
-	
-tests = 9
-grapher = Graph()
+tests = int(input("Enter a number for number of tests: "))
+num_of_iterations = int(input("Enter a number for amount of games to be played: "))
+#grapher = Graph()
+print("Playing %s games %s times...\n" % (num_of_iterations, tests)) 
 for j in range(tests):
 	board = Game()
-	grapher.y1 = board.play_agents(False)
-	
+	board.play_agents(False, num_of_iterations)
+	#grapher.y1 = board.play_agents(False, num_of_iterations)
 	#play without turns
 	board = Game()
-	grapher.y2 = board.play_agents(True)
-	print("_______________________________")
+	board.play_agents(True, num_of_iterations)
+	#grapher.y2 = board.play_agents(False, num_of_iterations)
+	print("_______________________________\n")
 #grapher.graph()
 
 
