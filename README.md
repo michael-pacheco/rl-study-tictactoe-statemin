@@ -1,6 +1,15 @@
+
+1. [Overview](#overview)		
+2. [Requirements](#requirements)	
+3. [Tests and Results](#results)
+4. [Requirements](#requirements)	
+
+
+<a name="overview"></a>
+<h1>Overview</h1>
 <h2>
 	A reinforcement learning agent that learns to play tic tac toe.
-</h1>
+</h2>
 <p>
 	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. The actions under consideration require the board to possess one of the following two properties:
 	<br>
@@ -33,10 +42,27 @@
 	The following graph is a result of the comparison of the two agents during 1,000,000 games played (Agent 1 using the minimized action space).
 	<img src="Avg Reward Over Time.png">
 </p>
+<a name="results"></a>
+<h2>
+	Results:
+</h2>
+<p>
+	For each of these trials, the two agents learned to play Tic Tac Toe from scratch each iteration. They both played 500,000 games each iteration, for 10 iterations. It seems most of the time (7/10 in most cases), the first agent outperforms the second. The differences in performance might be even more drastic if there were more games played per iteration, as once the agents learn to play optimally, there will be more games to win,
+</p>
+<br>
+<img src="Execution Time Per Iteration.png">
+<img src="Win Rate Per Iteration (Excluding Draws).png">
+<img src="Win Rate Per Iteration (Including Draws).png">
+<img src="Draws Per Iteration.png">
+<img src="States Per Iteration.png">
 
-<h2>Requirements: (Python 3x)</h2>
+<a name="requirements"></a>
+<h2 name=">Requirements: (Python 3x)</h2>
 <ul>
   <li>
     Numpy 
+  </li>
+  <li>
+	Plotly (if you would like to graph)
   </li>
 </ul>

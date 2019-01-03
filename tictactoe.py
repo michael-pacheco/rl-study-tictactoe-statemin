@@ -241,8 +241,8 @@ class Game:
 					agent_1.update_reward_data( i)
 					self.reset()
 					break
-			#reduce epsilon/exploration after 500k iteraitons every 15k iterations, and start printing out what iteration its on 
-			if i is not 0 and i >= 500000 and i % 15000 == 0 :
+			#reduce epsilon/exploration after iteraitons/2 every 15k iterations, and start printing out what iteration its on 
+			if i is not 0 and i >= iterations/2  and i % 15000 == 0 :
 				#print(i)
 				if agent_1.epsilon > 0.05:
 					agent_1.epsilon -= 0.01
