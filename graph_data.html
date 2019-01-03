@@ -1,0 +1,246 @@
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+	<div id="time"></div>
+	<div id="winnoratedraws"></div>
+	<div id="winratedraws"></div>
+	<div id="draws"></div>
+	<div id="qtable"></div>
+</body>
+<script>
+	var agent_1_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+				397.40, 
+				404.44, 
+				405.65,
+				362.78,
+				417.07,
+				380.60, 
+				427.71, 
+				423.38, 
+				451.18,
+				511.79
+			 ],
+		 type: 'bar',
+		 name: 'Agent 1',
+	 };
+
+	var agent_2_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+			453.03,
+			401.73,
+			413.15,
+			376.83,
+			432.89,
+			428.73,
+			448.74,
+			406.75,
+			474.72,
+			491.34
+		],
+		type: 'bar',
+		name: 'Agent 2',
+	};
+
+	var layout = {
+		title: 'Execution Time Per Iteration',
+		xaxis: {
+			title:'Iterations'
+		},
+		yaxis: {
+			title: 'Time (s)'
+		},
+	}
+	Plotly.plot('time', [agent_1_data, agent_2_data], layout);
+
+	var agent_1_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+				91.88, 
+				88.05, 
+				88.50,
+			   92.89,
+				85.70,
+				96.89, 
+				86.66,
+				92.51,
+				84.45,
+				76.56
+			 ],
+		 type: 'bar',
+		 name: 'Agent 1',
+	 };
+
+	var agent_2_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+			82.82,
+			89.07,
+			85.72,
+			91.24,
+			83.10,
+			86.70,
+			86.66,
+			87.98,
+			82.85,
+			86.60
+		],
+		type: 'bar',
+		name: 'Agent 2',
+	};
+
+	var layout = {
+		title: 'Win Rate Per Iteration (Excluding Draws)',
+		xaxis: {
+			title:'Iterations'
+		},
+		yaxis: {
+			title: 'Win Rate (%)'
+		}
+	}
+	Plotly.plot('winnoratedraws', [agent_1_data, agent_2_data], layout);
+
+	var agent_1_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+				86.66, 
+				83.15, 
+				83.73,
+				90.14,
+				79.44,
+				92.26,
+				79.07,
+				86.20, 
+				78.08, 
+				68.65
+			 ],
+		 type: 'bar',
+		 name: 'Agent 1',
+	 };
+
+	var agent_2_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+			76.59,
+			83.89,
+			79.35,
+			88.30,
+			75.80,
+			81.82,
+			79.81,
+			83.19,
+			75.07,
+			78.88
+		],
+		type: 'bar',
+		name: 'Agent 2',
+	};
+
+	var layout = {
+		title: 'Win Rate Per Iteration (Including Draws)',
+		xaxis: {
+			title:'Iterations'
+		},
+		yaxis: {
+			title: 'Win Rate (%)'
+		}
+	}
+	Plotly.plot('winratedraws', [agent_1_data, agent_2_data], layout);
+
+	var agent_1_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+				5.68, 
+				5.56, 
+				5.40,
+				2.96,
+				7.30,
+				4.78,
+				8.77, 
+				6.82, 
+				7.54, 
+				10.32
+			 ],
+		 type: 'bar',
+		 name: 'Agent 1',
+	 };
+
+	var agent_2_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+			7.52,
+			5.82,
+			7.44,
+			3.22,
+			8.79,
+			5.63,
+			7.91,
+			5.44,
+			9.39,
+			8.92
+		],
+		type: 'bar',
+		name: 'Agent 2',
+	};
+
+	var layout = {
+		title: 'Draws Per Iteration',
+		xaxis: {
+			title:'Iterations'
+		},
+		yaxis: {
+			title: 'Draws (%)'
+		}
+	}
+	Plotly.plot('draws', [agent_1_data, agent_2_data], layout);
+
+	var agent_1_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+				3800, 
+				3798, 
+				3825,
+				3804,
+				3822,
+				3801, 
+				3819, 
+				3813, 
+				3822,
+				3815
+			 ],
+		 type: 'bar',
+		 name: 'Agent 1',
+	 };
+
+	var agent_2_data = {
+		x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+		y: [
+			5443,
+			5443,
+			5434,
+			5444,
+			5448,
+			5450,
+			5445,
+			5424,
+			5452,
+			5443
+		],
+		type: 'bar',
+		name: 'Agent 2',
+	};
+
+	var layout = {
+		title: 'States Per Iteration',
+		xaxis: {
+			title:'Iterations'
+		},
+		yaxis: {
+			title: 'Size of Q-table'
+		}
+	}
+	Plotly.plot('qtable', [agent_1_data, agent_2_data], layout);
+</script>
