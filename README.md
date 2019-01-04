@@ -37,24 +37,37 @@
 	<br>
 	<br>
 	The main goal of this was to compare two agents (time of execution, size of state space, win rate, number of draws, etc): one where its state space was not minimized using this idea, and one where its state space was not - to see how impactful this minimization could potentially be on the agent's average reward over time.
-	<br>
-	<br>
-	The following graph is a result of the comparison of the two agents during 1,000,000 games played (Agent 1 using the minimized action space).
 </p>
 <a name="results"></a>
 <h1>
 	Results:
 </h1>
 <p>
-	For each of these trials, the two agents learned to play Tic Tac Toe from scratch each iteration. They both played 500,000 games each iteration, for 10 iterations (except average reward over time, where they played 1,000,000 games for one trial). It seems most of the time (7/10 in most cases), the first agent outperforms the second. The differences in performance might be even more drastic if there were more games played per iteration, as once the agents learn to play optimally, there will be more games to win.
+	For each of these trials, the two agents learned to play Tic Tac Toe from scratch each iteration. They both played 500,000 games each iteration, for 10 iterations (except average reward over time, where they played 1,000,000 games for one trial). Agent 1 using the minimized action space. It seems most of the time (7/10 in most cases), the first agent outperforms the second. The differences in performance might be even more drastic if there were more games played per iteration, as once the agents learn to play optimally, there will be more games to win.
 </p>
 <br>
-<img src="Avg Reward Over Time.png">
-<img src="Execution Time Per Iteration.png">
-<img src="Win Rate Per Iteration (Excluding Draws).png">
-<img src="Win Rate Per Iteration (Including Draws).png">
-<img src="Draws Per Iteration.png">
-<img src="States Per Iteration.png">
+<ol>
+  <li> 
+    The following graph is a result of the comparison of the two agents during 1,000,000 games played:
+    <img src="Avg Reward Over Time.png">
+  </li>
+  <li>
+    <img src="Execution Time Per Iteration.png">
+  </li>
+  <li>
+    <img src="Win Rate Per Iteration (Excluding Draws).png">
+  </li>
+  <li>
+    <img src="Win Rate Per Iteration (Including Draws).png">
+  </li>
+  <li>
+    <img src="Draws Per Iteration.png">
+  </li>
+  <li>
+    <img src="States Per Iteration.png">
+  </li>
+</ol>
+	  
 
 <a name="requirements"></a>
 <h1>Requirements: (Python 3x)</h1>
