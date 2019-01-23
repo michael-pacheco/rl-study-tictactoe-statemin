@@ -1,6 +1,6 @@
 from tictactoe import Game
 from agent import Agent
-import graph
+from graph import Graph
 
 tests = int(input("Enter a number for number of tests: "))
 num_of_iterations = int(input("Enter a number for amount of games to be played: "))
