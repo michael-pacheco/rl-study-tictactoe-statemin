@@ -1,8 +1,7 @@
 
 1. [Overview](#overview)			
 2. [Tests and Results](#results)
-3. [Requirements](#requirements)	
-
+3. [Requirements](#requirements)
 
 <a name="overview"></a>
 <h1>Overview</h1>
@@ -10,8 +9,8 @@
 	A reinforcement learning agent that learns to play tic tac toe.
 </h1>
 <p>
-	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. There are several ways to manipulate actions or the board to reach states that would be a result of other sets of actions performed throughout the game. The actions under my consideration require the board to possess one of the following two properties:
-	<br>
+	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. There are several ways to manipulate the board to reach states that would be a result of other sets of actions performed throughout the game. Another way to achieve this same idea is to limit the actions of the agent. The actions under my consideration require the board to possess one of the following two properties:
+</p>
 	<ol>
 		<li>
 			Board is empty
@@ -20,7 +19,7 @@
 			The first action of the first player is in the middle of the board, (1, 1).
 		</li>
 	</ol>
-	<br>
+<p>
 	If one of those properties hold, the following actions in each set can be thought of as equivalent, as the board can be rotated to achieve any of the other states as a result of any of the equivalent actions:
 	<br>
 	<ol>
@@ -31,11 +30,15 @@
 			([0, 1], [1, 0], [1, 2], [2, 1])
 		</li>
 	</ol>
-	<br>
-	Using this idea we can remove a considerable amount from the state space, as we can actually limit the set of possible actions for the first player's first move to 3, and potentially the second player's set of possible actions for their first move to 2. We can only limit the second player's first set of actions if the first player chose to mark the middle of the board with their first move, as the board would possess the first property stated above.
-	<br>
-	<br>
-	The main goal of this was to compare two agents (time of execution, size of state space, win rate, number of draws, etc): one where its action/state space was minimized using this idea, and another agent where it was not - to see how impactful this minimization could potentially be on the agent's performance.
+</p>
+<p>
+	Using this idea we can remove a considerable amount from the state space, as we can actually limit the set of possible actions for the first player's first move to 3, and potentially the second player's set of possible actions for their first move to 2. We can only limit the second player's first set of actions if the first player chose to mark the middle of the board with their first move, as the second property stated above would hold.
+</p>
+<p>
+	The main goal of this was to compare two agents (time of execution, size of state space, win rate, number of draws, etc): one where its action/state space was minimized using this idea, and another agent where it was not - to see how impactful this minimization could potentially be on the agent's performance. 
+</p>
+<p>
+	There are more states that can be taken under consideration using the same idea, though it is arguable that continuing to limit the action space of the agent would begin to change the game entirely, and would most likely result in the loss of major aspects of the core game (eg. losing the chance for the agent to learn possible strategies that humans may actively be using in their gameplay).
 </p>
 <a name="results"></a>
 <h1>
