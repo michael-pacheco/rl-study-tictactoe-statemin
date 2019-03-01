@@ -10,7 +10,7 @@
 	A reinforcement learning agent that learns to play tic tac toe.
 </h1>
 <p>
-	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. The actions under consideration require the board to possess one of the following two properties:
+	Tic Tac Toe has many actions that are equivalent because of the symmetric properties of the board being a square. There are several ways to manipulate actions or the board to reach states that would be a result of other sets of actions performed throughout the game. The actions under my consideration require the board to possess one of the following two properties:
 	<br>
 	<ol>
 		<li>
@@ -21,7 +21,7 @@
 		</li>
 	</ol>
 	<br>
-	If one of those properties hold, the following actions in each set are equivalent, as the board can be rotated to achieve any of the other states as a result of any of the equivalent actions:
+	If one of those properties hold, the following actions in each set can be thought of as equivalent, as the board can be rotated to achieve any of the other states as a result of any of the equivalent actions:
 	<br>
 	<ol>
 		<li>
@@ -32,10 +32,10 @@
 		</li>
 	</ol>
 	<br>
-	Using this idea we can remove a considerable amount from the state space, and actually limit the first (and potentially the second) set of actions for each player to 3 (and 2 if the first player chose to mark the middle of the board, respectively).
+	Using this idea we can remove a considerable amount from the state space, as we can actually limit the set of possible actions for the first player's first move to 3, and potentially the second player's set of possible actions for their first move to 2. We can only limit the second player's first set of actions if the first player chose to mark the middle of the board with their first move, as the board would possess the first property stated above.
 	<br>
 	<br>
-	The main goal of this was to compare two agents (time of execution, size of state space, win rate, number of draws, etc): one where its state space was not minimized using this idea, and one where its state space was not - to see how impactful this minimization could potentially be on the agent's performance.
+	The main goal of this was to compare two agents (time of execution, size of state space, win rate, number of draws, etc): one where its action/state space was minimized using this idea, and another agent where it was not - to see how impactful this minimization could potentially be on the agent's performance.
 </p>
 <a name="results"></a>
 <h1>
